@@ -1,11 +1,11 @@
 import { INPUT_CLASSES } from '../styles/formStyles';
 import { LABEL_CLASSES } from '../styles/formStyles';
 
-type TextFieldCommentProps = {
+type TextAreaFieldProps = {
   label: string;
 };
 
-export function TextFieldComment({ label }: TextFieldCommentProps) {
+export function TextAreaField({ label }: TextAreaFieldProps) {
   return (
     <label className={LABEL_CLASSES}>
       <span>{label}</span>
