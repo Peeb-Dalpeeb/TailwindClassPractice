@@ -15,6 +15,7 @@ export function Form({ title, description }: FormProps) {
         <TextField label="Full Name" />
         <TextField label="Email" type="email" />
         <TextField label="Phone" />
+        <TextField label="Address" />
         <TextAreaField label="Comment" />
         <button
           type="submit"
