@@ -19,7 +19,7 @@ export function Item({ item, Name, price, description, imageURL }: ItemProps) {
           {item}
         </p>
         <div className="flex flex-col">
-          <p className="text-pie-charcoal text-xl font-bold">{Name}</p>
+          <h2 className="text-pie-charcoal text-xl font-bold">{Name}</h2>
           <p className="text-pie-gray mt-1 text-sm">{description}</p>
         </div>
         <div className="flex items-center gap-8">
