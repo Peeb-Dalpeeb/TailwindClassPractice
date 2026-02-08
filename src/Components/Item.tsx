@@ -8,7 +8,7 @@ interface ItemProps {
 
 export function Item({ item, Name, price, description, imageURL }: ItemProps) {
   return (
-    <article className="mx-4 flex max-w-2xl flex-col items-center gap-6 rounded-lg border-1 border-gray-200 bg-white p-4 md:mx-auto md:flex-row md:gap-8">
+    <article className="mx-4 flex max-w-2xl flex-col items-center gap-6 rounded-lg border-1 border-gray-200 bg-white p-4 md:mx-auto md:w-full md:flex-row md:gap-8">
       <img
         src={imageURL}
         alt={Name}
