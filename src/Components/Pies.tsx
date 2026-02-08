@@ -19,7 +19,7 @@ export default function Pies() {
 
   // 3. Use useEffect to fetch data when the component loads
   useEffect(() => {
-    fetch('http://localhost:5000/api/items')
+    fetch('https://tailwindclasspractice.onrender.com/api/items')
       .then((res) => res.json())
       .then((data) => setItems(data))
       .catch((err) => console.error("Error fetching pies:", err));
