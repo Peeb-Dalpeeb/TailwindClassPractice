@@ -36,7 +36,7 @@ export function Item({ item, Name, price, description, imageURL }: ItemProps) {
             type="button"
             className="text-pie-gray hover:text-pie-charcoal text-sm underline underline-offset-2"
           >
-            Delete
+            tot ziens
           </button>
         </div>
       </div>
